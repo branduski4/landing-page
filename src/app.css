@@ -1,0 +1,44 @@
+:root{
+    --primary-color:#332FD0;
+    --secondary-color:#FB2576;
+    --third-color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #332FD0;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+h1,
+h2,
+h3{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.6rem;
+}
+.contenedor{
+    max-width: 160rem;
+    margin: 0 auto;
+    width: 90%;
+}

@@ -144,9 +144,6 @@
         background-color:#d50052;
         
     }
-    .header__cv:active, .header__linkedin{
-        transform: scale(1.1);
-    }
     .header__links{
         display: flex;
         flex-direction: column;
@@ -156,21 +153,19 @@
             flex-direction: row;
         }
     }
-    .header__linkedin{
-        background-color: transparent;
-        border: 1px solid var(--secondary-color);
-        color: white;
-        transition-property: color background-color;
-        margin-top: 1.2rem;
-    }
+    
     @media screen and (min-width:768px){
         .header__linkedin{
            display: block;
            margin-left: 2rem;
         }
     }
+    .header__linkedin{
+        background-color: transparent;
+        border: 1px solid var(--secondary-color);
+    }
     .header__linkedin:hover{
-        background-color: rgba(255, 255, 255, 0.848);
+        background-color: rgba(26, 26, 26, 0.848);
         color: var(--secondary-color);
     }
 </style>

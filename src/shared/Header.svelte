@@ -4,7 +4,7 @@
 
 <header class="header contenedor">
     <nav class="header__nav">
-        <h2 class="header__logo">Branduski!</h2>
+        <h2 class="header__logo">Branduski</h2>
         <ul class="nav__ul">
             <li class="nav__li">
                 <a href="#" class="nav__link">About Me</a>
@@ -28,7 +28,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
     @media screen and (min-width:992px){
        .header__nav{
@@ -39,6 +38,7 @@
     }
     .header__logo{
         color:var(--third-color);
+        font-style:italic
     }
     .nav__ul{
         padding: 0;

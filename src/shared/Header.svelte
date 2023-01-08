@@ -8,9 +8,9 @@
             <ul class="nav__ul">
                 <li class="nav__li">
                     <a href="#" class="nav__link">About Me</a>
-                    <a href="#" class="nav__link">Portfolio</a>
-                    <a href="#" class="nav__link">Skills</a>
-                    <a href="#" class="nav__link">Contact</a>
+                    <a href="#portfolio" class="nav__link">Portfolio</a>
+                    <a href="#skills" class="nav__link">Skills</a>
+                    <a href="#footer" class="nav__link">Contact</a>
                 </li>
             </ul>
         </nav>

@@ -94,19 +94,20 @@
         line-height: 1.5;
         min-height: 50rem;
     }
-    /* @media screen and (min-width:992px){
+    @media screen and (min-width:992px){
         .header__info{
             align-items: flex-start;
-        
+            height: 70rem;
+            justify-content: center;
         }
-    } */
+    }
     .header__name{
         color: white;
         font-size: 3rem;
         text-align: center;
         margin: 0;
     }
-    @media screen and (min-width:992px){
+    @media screen and (min-width:1024px){
         .header__name{
             font-size: 7rem;
             text-align: left;
@@ -117,9 +118,9 @@
         text-align: center;
         font-size:5.5rem;
     }
-    @media screen and (min-width:992px){
+    @media screen and (min-width:1024px){
         .header__position{
-            font-size: 10rem;
+            font-size: 11rem;
             text-align: left;
         }
     }

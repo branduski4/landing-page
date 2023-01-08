@@ -5,9 +5,9 @@
 <footer id="footer">
     <h3 class="footer__title" >Contact me at</h3>
     <div class="contact__container">
-        <a target="_blank" href="https://github.com/branduski4"><img class="contact__img" src="./github.svg" alt=""></a>
-        <a target="_blank" href="https://www.linkedin.com/in/brandon-ruben-vizcarra-tirado-aa7989162/"><img class="contact__img" src="./linkedin.svg" alt=""></a>
-        <a target="_blank" href="https://www.facebook.com/iDivinitty"><img class="contact__img" src="./facebook.svg" alt=""></a>
+        <a target="_blank" href="https://github.com/branduski4"><img class="contact__img" src="./src/assets/github.svg" alt=""></a>
+        <a target="_blank" href="https://www.linkedin.com/in/brandon-ruben-vizcarra-tirado-aa7989162/"><img class="contact__img" src="./src/assets/linkedin.svg" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/iDivinitty"><img class="contact__img" src="./src/assets/facebook.svg" alt=""></a>
     </div>
 </footer>
 <style scoped>
